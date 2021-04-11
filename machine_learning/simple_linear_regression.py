@@ -54,5 +54,5 @@ plt.title('Salary vs Experience(Test Set')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show()
-# %%
+ # %%
 # we are having such a beautiful graph because the dataset values are in linear relationship
