@@ -14,3 +14,6 @@ Extensions Used:
 -Jupyter
 -Pylance
 -Python
+
+pip install tensorflow..in the terminal -> to get tensorflow module
+pip install keras -> to get keras module
