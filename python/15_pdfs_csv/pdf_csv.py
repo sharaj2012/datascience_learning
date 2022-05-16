@@ -1,6 +1,6 @@
 #%%
 import csv
-data_set = open('example.csv', encoding='utf-8')
+data_set = open('data/example.csv', encoding='utf-8')
 csv_data = csv.reader(data_set)
 data_lines = list(csv_data)
 
