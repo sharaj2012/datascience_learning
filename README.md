@@ -21,6 +21,14 @@ Extensions Used:
 -Python Docstring Generator
 -Github Copilot
 -Python Indent 
+-Auto Close Tag
+-One Dark Pro Theme
+-Auto Rename Tag
+-Code Spell Checker
+-vscode-icons
+-Prettier
+-[Deprecated] Bracket Pair Colorizer 2
+
 
 pip install tensorflow..in the terminal -> to get tensorflow module
 pip install keras -> to get keras module
