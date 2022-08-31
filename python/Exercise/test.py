@@ -7,5 +7,5 @@ def word_search(doc_list, keyword):
             final_list.append(doc_list.index(x))
     return final_list
 
-word_search(['The Learn Python Challenge Casino', 'They bought a car, and a horse', 'Casinoville?'],'car')
+print(word_search(['The Learn car Python Challenge Casino', 'They bought a car, and a horse'],'car'))
     
