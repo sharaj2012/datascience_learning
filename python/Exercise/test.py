@@ -6,6 +6,6 @@ def word_search(doc_list, keyword):
         if keyword.casefold() in val_list:
             final_list.append(doc_list.index(x))
     return final_list
-
+ 
 print(word_search(['The Learn car Python Challenge Casino', 'They bought a car, and a horse'],'car'))
     
