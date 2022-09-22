@@ -29,4 +29,13 @@ x
 df_titanic[df_titanic['Age'].isnull()]    #displays the entire dataframe only with values where Age is Nan
 # %%
 df_titanic[df_titanic['Age'].isnull()].index    #gives the index of the null values
+
+# %%
+import requests
+import pandas as pd
+url = 'https://raw.githubusercontent.com/FBosler/Medium-Data-Extraction/master/sales_team.csv'
+res = requests.get(url, allow_redirects=True)
+with open('sales_team.csv','wb') as file:
+    file.write(res.content)
+sales_team = pd.read_csv('sales_team.csv')
 # %%
