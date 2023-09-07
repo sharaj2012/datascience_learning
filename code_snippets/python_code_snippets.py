@@ -38,4 +38,16 @@ res = requests.get(url, allow_redirects=True)
 with open('sales_team.csv','wb') as file:
     file.write(res.content)
 sales_team = pd.read_csv('sales_team.csv')
+
+# %%
+# Why set a value for “random state”?
+# Ensures that a random process will output the same results every time, which makes your code reproducible (by you or by others)
+
+from sklearn.model_selection import train_test_split 
+
+# any positive integer can be used for the random_state value
+X_train, X_test,y_train,y_test =  train_test_split(X,y,test_size=0.5,random_state=1)
+
+#using the same random_state value results in the same random split
+
 # %%

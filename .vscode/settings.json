@@ -4,5 +4,6 @@
     "jupyter.jupyterServerType": "local",
     "cSpell.words": [
         "shashank"
-    ]
+    ],
+    "python.analysis.typeCheckingMode": "basic"
 }
